@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  width:100%;
+  margin:0 auto;
+}
+header{
+  background-color: #ff9a4b;
+  width:100%;
+  margin:0 auto;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.main-wrapper{
+  width:960px;
+  margin:0 auto;
+  display: flex;
+}
+.content{
+  background-color: #eee;
+
+}
+.step{
+  background-color: #ff9a4b;
+  display: inline-block;
+  color: white;
+  position: relative;
+  bottom:150px;
+
+}
+.one{
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size:cover;
+  height:150px;
+}
+.two{
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size:cover;
+  height:150px;
+}
+.three{
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size:cover;
+  height:150px;
+}
+.photo{
+  padding-top:10px;
+  margin-right:10px;
+  margin-left:10px;
+  position: relative;
+  top:10px;
+}
+.step-content{
+  width:300px;
+  margin:0 auto;
+}
+.content{
+  padding-right:20px;
+}
+.content:last-child{
+  padding-right:0;
+}
+.content-text{
+  width:90%;
+  margin:0 auto;
+}
+.content-text{
+  padding-bottom: 10px;
+}
+.content-text h3{
+  font-size:15px;
+  font-family: "ヒラギノ丸ゴ Pro",sans-serif;
+  padding-bottom: 5px;
+  
+}
+
+.content-text p{
+  font-size:13.5px;
+  font-family: "ヒラギノ丸ゴ Pro",sans-serif;
+}
+
+footer{
+  background-color: #aaa;
+  width:100%;
+  margin:0 auto;
+  height: 50px;
+  margin-top:50px;
+}
